@@ -1,0 +1,39 @@
+.max-tech-logo {
+    vertical-align: middle;
+    width: 200px;
+  }
+
+  .headeri-max-tech {
+    background-color: rgb(24, 26, 32);
+  }
+
+
+  ul {
+    display: inline-block;
+    margin-left: -170px;
+  }
+
+  ul li {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+
+  .header-container{
+    display: flex;
+  }
+  .left-side{
+    width: 170px;
+    display: flex;
+    align-items: center;
+   
+  }
+  .right-side{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
