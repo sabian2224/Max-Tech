@@ -6,68 +6,194 @@
   <title>Max Tech</title>
 
   <style>
-    body{
+    body {
       font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 1000px;
+      margin: none !important;
     }
-
-
     .max-tech-logo {
+      vertical-align: middle;
       width: 200px;
     }
 
-    .menuja-kryesore {
+    ul {
       display: inline-block;
-      vertical-align: top;
     }
 
-    .menuja-kryesore li {
+    ul li {
       display: inline-block;
-      font-size: 22px;
+      color: white;
+    }
+
+
+    .forma-e-regjistrimit {
+      margin-bottom: 400px;
+    }
+
+
+    .imazhi-produktit {
+      width: 300px;
+      height: 
+      350px;
+      object-fit: contain
+    }
+
+    .cmimi-i-produktit {
+      color: green;
       font-weight: bold;
-      margin-left: 5px;
-      margin-right: 5px;
-    }
-
-    .titulli {
-       font-size: 60px;
-    }
-
-    .nentitulli{
-      font-size: 30px;
-    }
-
-    .produktet {
       font-size: 22px;
     }
+
+
+    .shto-ne-shporte {
+      background-color: rgb(35, 145, 255);
+      color: white;
+      border: none;
+      padding: 10px;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+
+    .produkt {
+      width: 300px;
+      padding: 15px;
+      border: 2px solid rgba(128, 128, 128, 0.613);
+      border-radius: 5px;
+      display: inline-block;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+
+    .headeri-max-tech {
+      background-color: rgb(0, 81, 255);
+    }
+
+    .pjesa-kryesore {
+      background-color: mediumseagreen;
+    }
+
+    .section-1 {
+      background-color: coral;
+      width: 100%;
+      height: 100vh;
+      margin-bottom: 100px;
+    }
+
+    .menuja-kryesore a {
+      color: white;
+      text-decoration: none;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+
+    #home {
+      background-color: rgb(24, 26, 32);
+      color: white;
+    }
+
+    .headeri-max-tech{
+      background-color: rgb(24, 26, 32);
+      color: white;
+    }
+
+    .foto-iphone{
+      width: 100%;
+    }
+
+    .majtas{
+      display: inline-block;
+ 
+      width: 45%;
+      height: 100%;
+      vertical-align: top;
+      padding: 20px;
+    }
+
+    .djathtas{
+      display: inline-block;
     
+      width: 45%;
+      height: 100%;
+      padding: 20px;
+    }
+
+    .cmimi-divi-kryesore {
+      font-size: 20px;
+    }
+
+    .iphone16pro{
+      font-size: 34px;
+    }
+
+    .butoni-bli-tani{
+      background-color: blue;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .kategori {
+      text-decoration: none;
+    }
+
   </style>
 </head>
 <body>
 
+  <header class="headeri-max-tech"> 
   <img src="asete/imazhe/optimal.svg" alt="max tech" class="max-tech-logo">
   <ul class="menuja-kryesore">
-    <li>Kreui</li>
-    <li>Rreth Nesh</li>
-    <li>Dyqani</li>
-    <li>Kontakt</li>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#rreth-nesh">Rreth Nesh</a> </li>
+    <li><a href="#dyqani">Dyqani</a></li>
+    <li><a href="#kontakt">Kontakt</a></li>
   </ul>
+  </header>
 
 
-  <p class="titulli">
-    Max Tech
-  </p>
+  <section class="section-1" id="home">
 
-  <p class="nentitulli">
-    Ofrojmë Aksesorë për Pajisje Elektronike
-  </p>
+    <div class="majtas">
+      <p class="cmimi-divi-kryesore">$1300</p>
+      <p class="iphone16pro">iPhone 16 pro</p>
+      <button class="butoni-bli-tani">Bli Tani</button>
+    </div>
+
+    <div class="djathtas">
+    <img src="asete/imazhe/Natural_i_Phone_16_Pro_aa1c673c69.webp" class="foto-iphone">
+    </div>
+ 
+
+  </section>
+
+  <section>
+    <h1>Produktet</h1>
 
 
-  <p class="produktet">
-    Një game e gjërë aksesorësh për:<br/><br/> PC, Laptop, telefona dhe më shumë.
-  </p>
+    <a href="laptop.html" class="kategori">
+      <div>
+        <h1>Laptop</h1>
+        <img src="asete/imazhe/lenovo-ideapad-slim-3i-15inch-gen8-abyss-blue.avif" alt="">
+      </div>
+      
+    </a>
+
+  </section>
 
 
 
-  <p>Gjej gjithcka qe ju nevojitet për të përmirësuar performancën dhe përdorimin e pajisjeve tuaja.</p>
+
+  <section>
+  <!--Produkti-->
+
+
+
+
+  </section>
+
 </body>
 </html>
